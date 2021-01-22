@@ -51,6 +51,7 @@ let data = [
     age: 24,
   },
 ];
+console.log('Development')
 
 async function task() {
   const client = await MongoClient.connect(url, {
